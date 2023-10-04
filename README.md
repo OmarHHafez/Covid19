@@ -1,8 +1,8 @@
-# Covid19
+# Covid19  🦠
 
 ## Introduction
 
-This repository contains the analysis and visual representation of the Covid19 dataset. The primary focus of this project is to uncover patterns and insights related to the spread of the virus, the rate of mortality, and the vaccination distribution across different regions and countries.
+This repository contains the analysis and visual representation of Covid19 dataset. The primary focus of this project is to uncover patterns and insights related to the spread of the virus, the rate of mortality, and the vaccination distribution across different regions and countries.
 
 ## Dataset
 
@@ -22,10 +22,10 @@ Below is a sample from the dataset:
 
 The tools used for this analysis are Tableau and SQL Server.
 
-| Tool | Logo | Use | Website |
-|:----:|:----:|:---:|:-------:|
-| Tableau | <img width="100" src="./assets/images/Dashboard.png"> | Data Visualization | [Tableau](https://public.tableau.com/app/discover) |
-| SQL Server Management Studio (SSMS) | <img width="100" src="./assets/images/Dashboard.png"> | Database & SQL Querying | [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) |
+| Tool | Logo | Use |
+|:----:|:----:|:---:|
+| [Tableau](https://public.tableau.com/app/discover) | <img width="140" src="./assets/Tableau_Logo.png"> | Data Visualization |
+| [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) | <img width="40" src="./assets/ssms.png"> | Database & SQL Querying |
 
 
 ## Data Processing
@@ -76,13 +76,20 @@ order by 1, 2;
 
 | location   | date       | population | new_vaccinations | VaccinationsToDate |
 |:----------:|:----------:|:----------:|:----------------:|:------------------:|
-| Afghanistan | 03/01/2020 | 41,128,772 |       0        |         0          |
-| Afghanistan | 04/01/2020 | 41,128,772 |       0        |         0          |
-| ... | ... | ... |      ...        |         ...          |
+| United States | 13/12/2020 | 338289856 |       0        |         0          |
+| United States | 14/12/2020 | 338289856 |      4848      |         4848       |
+| United States | 15/12/2020 | 338289856 |      47885     |         52733      |
+|      ... 	|    ...     |   ...   |        ...       |         ...        |
+
+
+
 
 ## Results
 
 This analysis provides a holistic view of the Covid19 pandemic, capturing insights from global statistics down to individual countries. With the use of SQL for data processing and Tableau for visualization, the project illuminates the profound effects of the virus on various populations and the efforts to combat it through vaccination.
 
+<br> 
 
-<img width="896" src="./assets/images/Dashboard.png">
+The dashboard is published on [Tableau ](https://public.tableau.com/app/profile/omar.hafez/viz/Covid19_16958853715990/Dashboard1)
+
+<img width="896" src="./assets/Covid19_dashboard.png">

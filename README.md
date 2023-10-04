@@ -1,5 +1,7 @@
 # Covid19  🦠
 
+<img width="%100" src="./assets/header.jpg">
+
 ## Introduction
 
 This repository contains the analysis and visual representation of Covid19 dataset. The primary focus of this project is to uncover patterns and insights related to the spread of the virus, the rate of mortality, and the vaccination distribution across different regions and countries.
@@ -43,6 +45,7 @@ where location = 'World';
 |:-----------:|:------------:|:---------------:|
 | 770,452,934 |   6,963,446  |      0.9        |
 
+<br>
 
 ```sql
 -- Resulted Data for Continent Death Counts
@@ -62,6 +65,7 @@ order by TotalDeathCount desc;
 | Africa        |        259,008  |
 | Oceania       |         29,410  |
 
+<br>
 
 ```sql
 -- Rolling vaccinations per Country over time
@@ -92,4 +96,4 @@ This analysis provides a holistic view of the Covid19 pandemic, capturing insigh
 
 The dashboard is published on [Tableau ](https://public.tableau.com/app/profile/omar.hafez/viz/Covid19_16958853715990/Dashboard1)
 
-<img width="896" src="./assets/Covid19_dashboard.png">
+<img width="%100" src="./assets/Covid19_dashboard.png">

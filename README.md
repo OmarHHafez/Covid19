@@ -1,4 +1,4 @@
-# Covid19  🦠
+# Covid-19 Global Analysis 🦠
 
 <img width="%100" src="./assets/header.jpg">
 
